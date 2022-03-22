@@ -2,3 +2,22 @@ GET http://localhost:3000/subscribers
 
 ###
 GET http://localhost:3000/subscribers/27
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Thaweesap Krungsri",
+    "subscribedToChannel":"Travel"
+}
+
+PATCH http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"ssss"
+}
+
+###
+DELETE http://localhost:3000/subscribers/62398742d3e51018a24f0fe8
